@@ -15,28 +15,27 @@ Source: Kaggle Retail Sales Dataset.
 
 Fields:
 
-     * ansactionID: Unique transaction identifier.
+     * TansactionID: Unique transaction identifier.
      * Date: Transaction date (e.g., 2023-01-01).
      * CustomerID: Customer identifier.
-     Gender: Customer gender.
-     Age: Customer age.
-     ProductCategory: Product type (e.g., Electronics, Clothing, Beauty).
-     Quantity: Units sold.
-     PricePerUnit: Price per unit.
-     TotalAmount: Total sales amount (Quantity * PricePerUnit).
+     * Gender: Customer gender.
+     * Age: Customer age.
+     * ProductCategory: Product type (e.g., Electronics, Clothing, Beauty).
+     * Quantity: Units sold.
+     * PricePerUnit: Price per unit.
+     * TotalAmount: Total sales amount (Quantity * PricePerUnit).
 
 **Derived Fields (via Power Query)**
 
-     MonthName: Month abbreviation (e.g., Jan).
-     MonthOrder: Sorting order (1–12).
-     Quarter: Quarter (e.g., Q1).
-     Region: Simulated from CustomerID (e.g., North, South).
-     AgeGroup: Binned age (e.g., Under 25, 25-40).
-     Profit: Simulated (0.4 * TotalAmount, optional).
+     * MonthName: Month abbreviation (e.g., Jan).
+     * MonthOrder: Sorting order (1–12).
+     * Quarter: Quarter (e.g., Q1).
+     * AgeGroup: Binned age (e.g., Under 25, 25-40).
+     * Profit: Simulated (0.4 * TotalAmount, optional).
 
 **Additional Data:**
 
-* inventory_sales_correlation_data.csv: ProductCategory, TotalSales, AvgInventoryDays (from Python analysis).
+     * inventory_sales_correlation_data.csv: ProductCategory, TotalSales, AvgInventoryDays (from Python analysis).
 
 ### Repository Structure
 
@@ -45,7 +44,7 @@ retail-business-analysis/
 │   ├── retail_transactions.csv           # Kaggle dataset
 │   └── inventory_sales_correlation_data.csv  # Correlation output
 ├── sql/
-│   └── create_retail_analysis.sql        # MySQL schema (optional)
+│   └── create_retail_analysis.sql        # MySQL schema 
 ├── python/
 │   └── correlation_analysis.py           # Python script for correlation
 ├── powerbi/
