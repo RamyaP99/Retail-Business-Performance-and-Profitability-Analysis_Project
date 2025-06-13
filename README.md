@@ -13,7 +13,7 @@ This project analyzes retail sales data to uncover trends, seasonality, and inve
 
 Source: Kaggle Retail Sales Dataset.
 
-Fields:
+ Fields:
 
      * TansactionID: Unique transaction identifier.
      * Date: Transaction date (e.g., 2023-01-01).
@@ -39,11 +39,11 @@ Fields:
 
 ### Repository Structure
 
-retail-business-analysis/
+ retail-business-analysis/
 
           data/
-            *  retail_transactions.csv           # Kaggle dataset
-            *  inventory_sales_correlation_data.csv  # Correlation output
+         └── retail_transactions.csv           # Kaggle dataset
+         └── inventory_sales_correlation_data.csv  # Correlation output
           sql/
          └── create_retail_analysis.sql        # MySQL schema 
           python/
@@ -56,10 +56,51 @@ retail-business-analysis/
          └── README.md                            # This file
 
 
-	
+### 1.SQL (data prep and analysis)	
+
+* Data Cleaning Summary
+  
+      Removed null values in: ProductCategory, Date, PricePerUnit
+
+      Removed transactions with zero or negative quantity
+
+* Profitability Analysis
+  
+      Categories with highest/lowest profit margins
 
 
+### 2.Python (EDA, correlations)
 
+* Inventory Turnover vs Profitability
+  
+      InventoryDays estimation logic
+ 
+      Correlation coefficient between InventoryDays and Profit
 
+      Scatter plot analysis
 
+* Seasonal Trends
+  
+      Monthly sales trends (line plot)
+
+      Peak and low seasons
+
+      Suggestions for promotions/inventory planning
+
+### 3.Tableau (dashboard)
+
+Tableau Dashboard Overview
+* **Filters:** Gender, Product Category, Age Group, Time Period (Year/Month)
+* **Visuals:** sale and Profit by Product-Category, Inventory Days vs Profit, Monthly Sales
+* **Key insights** visible interactively
+
+### 4.PDF Report (insights + recommendations)
+
+**Recommendations**
+
+Drop or rethink low-margin categories
+
+Promote fast-selling seasonal products
+
+Improve stock management of slow movers
 
