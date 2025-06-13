@@ -15,9 +15,9 @@ Source: Kaggle Retail Sales Dataset.
 
 Fields:
 
-     **TransactionID:** Unique transaction identifier.
-     **Date:** Transaction date (e.g., 2023-01-01).
-     CustomerID: Customer identifier.
+     * ansactionID: Unique transaction identifier.
+     * Date: Transaction date (e.g., 2023-01-01).
+     * CustomerID: Customer identifier.
      Gender: Customer gender.
      Age: Customer age.
      ProductCategory: Product type (e.g., Electronics, Clothing, Beauty).
@@ -37,4 +37,28 @@ Fields:
 **Additional Data:**
 
 * inventory_sales_correlation_data.csv: ProductCategory, TotalSales, AvgInventoryDays (from Python analysis).
+
+### Repository Structure
+
+retail-business-analysis/
+├── data/
+│   ├── retail_transactions.csv           # Kaggle dataset
+│   └── inventory_sales_correlation_data.csv  # Correlation output
+├── sql/
+│   └── create_retail_analysis.sql        # MySQL schema (optional)
+├── python/
+│   └── correlation_analysis.py           # Python script for correlation
+├── powerbi/
+│   └── retail_insights.pbix             # Power BI dashboard
+├── docs/
+│   └── retail_insights.pdf              # Analysis report
+└── README.md                            # This file
+
+
+	
+
+
+
+
+
 
