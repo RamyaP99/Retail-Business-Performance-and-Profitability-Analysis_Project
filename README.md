@@ -40,18 +40,19 @@ Fields:
 ### Repository Structure
 
 retail-business-analysis/
-├── data/
-│   ├── retail_transactions.csv           # Kaggle dataset
-│   └── inventory_sales_correlation_data.csv  # Correlation output
-├── sql/
-│   └── create_retail_analysis.sql        # MySQL schema 
-├── python/
-│   └── correlation_analysis.py           # Python script for correlation
-├── powerbi/
-│   └── retail_insights.pbix             # Power BI dashboard
-├── docs/
-│   └── retail_insights.pdf              # Analysis report
-└── README.md                            # This file
+     ├── data/
+       └── retail_transactions.csv           # Kaggle dataset
+       └── inventory_sales_correlation_data.csv  # Correlation output
+     ├── sql/
+       └── create_retail_analysis.sql        # MySQL schema 
+     ├── python/
+       └── Inventory Turnover.ipynb          # Python script for correlation
+       └── Seasonal Trends.ipynb    
+     ├── powerbi/
+       └── retail_insights.pbix (and Dashboard pdf)       # Power BI dashboard
+     ├── docs/
+       └── retail_insights_Report.pdf           # Analysis report
+       └── README.md                            # This file
 
 
 	
