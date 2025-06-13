@@ -15,8 +15,8 @@ Source: Kaggle Retail Sales Dataset.
 
 Fields:
 
-     TransactionID: Unique transaction identifier.
-     Date: Transaction date (e.g., 2023-01-01).
+     **TransactionID:** Unique transaction identifier.
+     **Date:** Transaction date (e.g., 2023-01-01).
      CustomerID: Customer identifier.
      Gender: Customer gender.
      Age: Customer age.
