@@ -12,6 +12,7 @@ This project analyzes retail sales data to uncover trends, seasonality, and inve
 **Dataset**
 
 Source: Kaggle Retail Sales Dataset.
+https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset?utm_source=chatgpt.com
 
  Fields:
 
@@ -50,7 +51,7 @@ Source: Kaggle Retail Sales Dataset.
          └── Inventory Turnover.ipynb          # Python script for correlation
          └── Seasonal Trends.ipynb    
           powerbi/
-         └── retail_insights.pbix (and Dashboard pdf)       # Power BI dashboard
+         └── retail_insights.pbix (and Dashboard pdf)     # Power BI dashboard
           docs/
          └── retail_insights_Report.pdf           # Analysis report
          └── README.md                            # This file
@@ -60,9 +61,9 @@ Source: Kaggle Retail Sales Dataset.
 
 * Data Cleaning Summary
   
-      Removed null values in: ProductCategory, Date, PricePerUnit
+      - Removed null values in: ProductCategory, Date, PricePerUnit
 
-      Removed transactions with zero or negative quantity
+      - Removed transactions with zero or negative quantity
 
 * Profitability Analysis
   
