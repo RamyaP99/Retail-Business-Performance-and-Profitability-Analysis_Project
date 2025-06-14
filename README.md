@@ -68,26 +68,26 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset?utm_source
 
 * Profitability Analysis
   
-      Categories with highest/lowest profit margins
+      - Categories with highest/lowest profit margins
 
 
 ### 2.Python (EDA, correlations)
 
 * Inventory Turnover vs Profitability
   
-      InventoryDays estimation logic
+      - InventoryDays estimation logic
  
-      Correlation coefficient between InventoryDays and Profit
+      - Correlation coefficient between InventoryDays and Profit
 
-      Scatter plot analysis
+      - Scatter plot analysis
 
 * Seasonal Trends
   
-      Monthly sales trends (line plot)
+      - Monthly sales trends (line plot)
 
-      Peak and low seasons
+      - Peak and low seasons
 
-      Suggestions for promotions/inventory planning
+      - Suggestions for promotions/inventory planning
 
 ### 3.Tableau (dashboard)
 
@@ -100,9 +100,9 @@ Tableau Dashboard Overview
 
 **Recommendations**
 
-Drop or rethink low-margin categories
+* Drop or rethink low-margin categories
 
-Promote fast-selling seasonal products
+* Promote fast-selling seasonal products
 
-Improve stock management of slow movers
+* Improve stock management of slow movers
 
