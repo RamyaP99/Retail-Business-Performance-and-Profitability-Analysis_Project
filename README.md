@@ -43,17 +43,18 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset?utm_source
  retail-business-analysis/
 
           data/
-         └── retail_transactions.csv           # Kaggle dataset
+         └── retail_sales_dataset.csv           # Kaggle dataset
          └── inventory_sales_correlation_data.csv  # Correlation output
           sql/
          └── create_retail_analysis.sql        # MySQL schema 
+         └── retail_business(SQL Reults)       # Table Results
           python/
          └── Inventory Turnover.ipynb          # Python script for correlation
          └── Seasonal Trends.ipynb    
           powerbi/
          └── retail_insights.pbix (and Dashboard pdf)     # Power BI dashboard
           docs/
-         └── retail_insights_Report.pdf           # Analysis report
+         └── Retail Business Performance_Report.pdf           # Analysis report
          └── README.md                            # This file
 
 
