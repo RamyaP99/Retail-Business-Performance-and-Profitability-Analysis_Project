@@ -89,9 +89,9 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset?utm_source
 
       - Suggestions for promotions/inventory planning
 
-### 3.Tableau (dashboard)
+### 3.Power BI (dashboard)
 
-Tableau Dashboard Overview
+Power BI Dashboard Overview
 * **Filters:** Gender, Product Category, Age Group, Time Period (Year/Month)
 * **Visuals:** sale and Profit by Product-Category, Inventory Days vs Profit, Monthly Sales
 * **Key insights** visible interactively
