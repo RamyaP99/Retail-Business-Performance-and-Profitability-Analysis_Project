@@ -43,18 +43,17 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset?utm_source
  retail-business-analysis/
 
           data/
-         └── retail_sales_dataset.csv           # Kaggle dataset
+         └── retail_sales_dataset.csv              # Kaggle dataset
          └── inventory_sales_correlation_data.csv  # Correlation output
           sql/
-         └── create_retail_analysis.sql        # MySQL schema 
-         └── retail_business(SQL Reults)       # Table Results
+         └── create_retail_analysis.sql            # MySQL schema 
+         └── retail_business(SQL Results)          # Table Results
           python/
-         └── Inventory Turnover.ipynb          # Python script for correlation
+         └── Inventory Turnover.ipynb              # Python script for correlation
          └── Seasonal Trends.ipynb    
           powerbi/
          └── retail_insights.pbix (and Dashboard pdf)     # Power BI dashboard
           docs/
-         └── Retail Business Performance_Report.pdf           # Analysis report
          └── README.md                            # This file
 
 
@@ -138,6 +137,22 @@ Excel: For data preprocessing and creating the model template.
 Tableau: For building an interactive dashboard.
 
 Python (Pandas): For data cleaning, aggregation, and cohort analysis.
+
+### Repository Structure
+
+ Financial KPIs for startups /
+
+          data/
+         └── Saas_Sales_dataset.csv               # Kaggle dataset
+          python/
+         └── Financial_KPI.ipynb                  # Python script for cohort analysis
+          Excel/
+         └── Financial_KPI_Model.xlsx             # Excel Model template
+          Tableau/
+         └── Financial_KPI_Dashboard.twb (and Dashboard pdf)     # tableau dashboard
+          docs/
+         └── LTV_CAC_Report.pdf                   # pdf report of LTV:CAC Ratio
+         └── README.md                            # This file
 
 ### Data Preparation
 
